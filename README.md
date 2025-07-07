@@ -31,3 +31,5 @@ The data warehouse follows a star schema model consisting of:
   ## Power BI Dashboard
 
   This project includes an interactive Power BI dashboard built from the OLAP cube layer, enabling detailed insights into sales performance, regional trends and employee data.
+  ![image](https://github.com/user-attachments/assets/dfec0d71-126c-4b0e-b564-88190240d471)
+
