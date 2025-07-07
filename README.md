@@ -24,6 +24,10 @@ The data warehouse follows a star schema model consisting of:
   - Employee
   - Vendor
  
-  ## Dashboard Preview
+  ## Pipeline Architecture
 
-  
+![image](https://github.com/user-attachments/assets/c552d44e-ede2-4afd-97f3-3033242b77e5)
+ 
+  ## Power BI Dashboard
+
+  This project includes an interactive Power BI dashboard built from the OLAP cube layer, enabling detailed insights into sales performance, regional trends and employee data.
