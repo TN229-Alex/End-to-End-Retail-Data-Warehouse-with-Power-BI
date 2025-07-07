@@ -10,7 +10,7 @@ This project showcases a business intelligence solution built using a simulated 
 
 ## Data Warehouse Design
 
-The data warehouse follows a star schema model consisting of:
+The data warehouse follows a galaxy schema model consisting of:
 
 - **Fact Tables**:
   - Sales Fact
@@ -27,6 +27,18 @@ The data warehouse follows a star schema model consisting of:
   ## Pipeline Architecture
 
 ![image](https://github.com/user-attachments/assets/c552d44e-ede2-4afd-97f3-3033242b77e5)
+
+## SSAS Tabular Cube
+
+This project includes a fully developed SSAS Tabular model (`Model.bim`) that was deployed to a local SSAS instance and connected to Power BI for high-performance reporting.
+
+**Cube Features:**
+- **Tables Imported From:** Warehouse.sql (Data Warehouse)
+- **Modeling Tool:** SQL Server Data Tools (SSDT) for Visual Studio
+- **Relationships Defined:** FactInternetSales → DimDate, DimProduct, DimCustomer, etc.
+
+[`ssas_cube/`](ssas_cube) – contains the `.bim` cube model and project file.
+
  
   ## Power BI Dashboard
 
